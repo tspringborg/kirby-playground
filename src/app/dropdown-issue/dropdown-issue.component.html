@@ -1,0 +1,38 @@
+<kirby-page-title>Dropdown issue</kirby-page-title>
+
+<kirby-page-content>
+  
+<p>Inside a modal, kirby dropdown is cut</p>
+<p>..but only under certain conditions. Most importantly there should be more content in the modal</p>
+<p>Furthermore, if you are testing this issue in a browser, you should emulate an iphone SE or a similar small device</p>
+<p></p>
+<p>...</p>
+<p>...</p>
+<p>...</p>
+<p>...</p>
+<p>...</p>
+<p>...</p>
+<p>...</p>
+<kirby-dropdown
+  [placeholder]="items.length + ' items'"
+  attentionLevel="1"
+  [usePopover]="true"
+  [items]="items"
+>
+</kirby-dropdown>
+
+<p>...</p>
+<p>...</p>
+<p>...</p>
+<p>...</p>
+<p>...</p>
+<p>...</p>
+<p>...</p>
+<p>...</p>
+<p>...</p>
+<p>...</p>
+
+</kirby-page-content>
+<kirby-modal-footer>
+  <button kirby-button attentionLevel="2" (click)="closeModal()">Close</button>
+</kirby-modal-footer>

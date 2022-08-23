@@ -5,10 +5,12 @@ import { RouterModule } from '@angular/router';
 import { KirbyModule } from '@kirbydesign/designsystem';
 
 import { AppComponent } from './app.component';
+import { DropdownIssueComponent } from './dropdown-issue/dropdown-issue.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DropdownIssueComponent,
   ],
   imports: [
     BrowserModule,
